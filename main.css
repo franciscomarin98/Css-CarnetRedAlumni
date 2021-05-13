@@ -119,12 +119,14 @@ body {
     background-color: white;
 }
 
-.mision{
-    background-color: red;
-}
-
-.vision{
-    background-color: green;
+.parrafo{
+    border-left: 3px solid;
+    border-color: #094973;
+    padding-left: 4px;
+    font-size: 9.2px;
+    font-weight: bolder;
+    text-align: justify;
+    margin: 5px;
 }
 
 .shared{
@@ -137,5 +139,20 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 40px 0;
+    margin: 25px 20px 10px 20px;
+    color: #094973;
+}
+
+.titulo{
+    font-size: 14px;
+    align-self: flex-start;
+    margin-left: 10px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.info-alumni-back{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
