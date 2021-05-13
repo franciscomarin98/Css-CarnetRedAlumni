@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
 
 body {
-    background-color: #CDCDCD;
+    background-color: #fff;
     font-family     : 'Poppins';
 }
 
 .wrapper {
     display        : flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items    : center;
     flex-wrap      : wrap;
 }
@@ -15,7 +15,7 @@ body {
 .carnet-alumni {
     height          : 420px;
     width           : 280px;
-    background-color: white;
+    background-color: #FAFBF6;
 }
 
 .carnet-alumni-content {
@@ -49,7 +49,7 @@ body {
     opacity         : 1;
     background-size : 10px 10px;
     background-image: repeating-linear-gradient(45deg, #002947 0, #002947 1px, #002B4B 0, #002B4B 50%);
-    padding-bottom  : 3%;
+    padding-bottom  : 2.4%;
     display         : flex;
     flex-direction  : column;
     align-items     : center;
@@ -117,7 +117,7 @@ body {
     /* margin-top: 20px; */
     height          : 420px;
     width           : 280px;
-    background-color: white;
+    background-color: #FAFBF6;
 }
 
 .info-institucional {
