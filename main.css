@@ -6,10 +6,10 @@ body {
 }
 
 .wrapper {
-    display: flex;
+    display        : flex;
     justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
+    align-items    : center;
+    flex-wrap      : wrap;
 }
 
 .carnet-alumni {
@@ -19,15 +19,14 @@ body {
 }
 
 .carnet-alumni-content {
-    /* margin: 5px; */
     display       : flex;
     flex-direction: column;
     align-items   : center;
 }
 
 .logo-carrera {
-    width : 70%;
-    margin: .5rem 0 1rem 0;
+    width : 60%;
+    margin: .2rem 0 1rem 0;
 }
 
 .firma {
@@ -68,7 +67,8 @@ body {
 }
 
 .informacion-alumni h1 {
-    font-size     : 25px;
+    font-size     : 24px;
+    line-height   : 1.9;
     color         : white;
     text-transform: uppercase;
     margin-top    : 4.5em;
@@ -113,88 +113,88 @@ body {
 
 /* Parte trasera del carnet */
 
-.carnet-alumni-back{
-    margin-top: 20px;
+.carnet-alumni-back {
+    /* margin-top: 20px; */
     height          : 420px;
     width           : 280px;
     background-color: white;
 }
 
-.info-institucional{
-    display: flex;
+.info-institucional {
+    display       : flex;
     flex-direction: column;
-    align-items: center;
-    margin: 25px 20px 0 20px;
-    color: #094973;
-    line-height: 1;
+    align-items   : center;
+    margin        : 25px 20px 0 20px;
+    color         : #094973;
+    line-height   : 1;
 }
 
-.shared{
+.shared {
     height: 50px;
-    width: 90%;
+    width : 90%;
     margin: .1rem 0;
 }
 
-.titulo{
-    font-size: 14px;
-    align-self: flex-start;
-    margin-left: 10px;
-    font-weight: bolder;
-    margin-bottom: 0;
+.titulo {
+    font-size     : 14px;
+    align-self    : flex-start;
+    margin-left   : 10px;
+    font-weight   : bolder;
+    margin-bottom : 0;
     text-transform: uppercase;
 }
 
-.parrafo{
-    border-left: 3px solid;
+.parrafo {
+    border-left : 3px solid;
     border-color: #094973;
     padding-left: 4px;
-    font-size: 9.2px;
-    font-weight: bolder;
-    text-align: justify;
-    line-height: 1.1;
-    margin: 5px 5px 0 5px;
+    font-size   : 9.2px;
+    font-weight : bolder;
+    text-align  : justify;
+    line-height : 1.1;
+    margin      : 5px 5px 0 5px;
 }
 
-.info-alumni-back{
-    display: flex;
+.info-alumni-back {
+    display       : flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 5px;
+    align-items   : center;
+    margin-top    : 5px;
 }
 
-.firma-back{
+.firma-back {
     margin-top: .5rem;
 }
 
-.firma-back img{
+.firma-back img {
     height: 3.5rem;
 }
 
 
-.footer img{
+.footer img {
     margin-top: -120px;
-    width: 100%;
-    position: relative;
-    z-index: 0;
+    width     : 100%;
+    position  : relative;
+    z-index   : 0;
 }
 
-.carnet-footer{
-    position: relative;
-    z-index: 1;
-    height: 65px;
-    margin-top: -15px;
+.carnet-footer {
+    position        : relative;
+    z-index         : 1;
+    height          : 65px;
+    margin-top      : -15px;
     background-color: #002B4B;
     background-size : 10px 10px;
     background-image: repeating-linear-gradient(45deg, #002947 0, #002947 1px, #002B4B 0, #002B4B 50%);
 }
 
-.carnet-footer .texto-footer{
-    color: white;
-    font-size: 9px;
+.carnet-footer .texto-footer {
+    color         : white;
+    font-size     : 9px;
     text-transform: uppercase;
-    display: flex;
-    margin: 0 auto;
-    padding-left: 12px;
-    padding-top: 20px;
+    display       : flex;
+    margin        : 0 auto;
+    padding-left  : 12px;
+    padding-top   : 20px;
     padding-bottom: 0;
 }
