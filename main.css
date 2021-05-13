@@ -1,0 +1,99 @@
+
+
+.carnet-alumni{
+    height: 420px;
+    width: 280px;
+    background-color: white;
+}
+
+.carnet-alumni-content{
+    /* margin: 5px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-carrera{
+   width: 70%;
+   margin: .5rem 0 1rem 0;
+}
+
+.firma{
+    position: absolute;
+    top: 355px;
+    left: 270px;
+}
+
+.foto-alumni{
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+    border: 4px solid #045E8C;
+    position: relative;
+    z-index: 1;
+}
+
+.informacion-alumni{
+    background-color: #002B4B;
+    opacity: 1;
+    background-size: 10px 10px;
+    background-image: repeating-linear-gradient(45deg, #002947 0, #002947 1px, #002B4B 0, #002B4B 50%); 
+    padding-bottom: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -5rem;
+    position: relative;
+    z-index: 0;
+    width: 100%;
+}
+
+.informacion-alumni .firma img{
+    width: 120px;
+    position: absolute;
+    bottom: 250px;
+    right: 0;
+}
+
+.informacion-alumni h1{
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 4.5em;
+    font-weight: 300;
+}
+
+.informacion-alumni h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: -30px;
+    font-weight: 400;
+}
+
+.informacion-alumni .descripcion{
+    width:80%;
+    margin-top: -10px;
+    line-height: .7rem;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+
+.informacion-alumni .descripcion .titulo-descripcion p{
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.informacion-alumni .descripcion .separador-descripcion p{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.informacion-alumni .descripcion .contenido-descripcion p{
+    font-size: 12px;
+    margin-left: -10px;
+}
