@@ -114,6 +114,7 @@ body {
 /* Parte trasera del carnet */
 
 .carnet-alumni-back{
+    margin-top: 20px;
     height          : 420px;
     width           : 280px;
     background-color: white;
@@ -167,4 +168,29 @@ body {
 
 .firma-back img{
     height: 3.5rem;
+}
+
+
+.footer img{
+    margin-top: -120px;
+    width: 100%;
+}
+
+.carnet-footer{
+    height: 62px;
+    margin-top: -10px;
+    background-color: #002B4B;
+    background-size : 10px 10px;
+    background-image: repeating-linear-gradient(45deg, #002947 0, #002947 1px, #002B4B 0, #002B4B 50%);
+}
+
+.carnet-footer .texto-footer{
+    color: white;
+    font-size: 9px;
+    text-transform: uppercase;
+    display: flex;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-top: 16px;
+    padding-bottom: 0;
 }
