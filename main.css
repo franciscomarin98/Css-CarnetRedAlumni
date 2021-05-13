@@ -119,6 +119,30 @@ body {
     background-color: white;
 }
 
+.info-institucional{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 20px 0 20px;
+    color: #094973;
+    line-height: 1;
+}
+
+.shared{
+    height: 50px;
+    width: 90%;
+    margin: .1rem 0;
+}
+
+.titulo{
+    font-size: 14px;
+    align-self: flex-start;
+    margin-left: 10px;
+    font-weight: bolder;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
 .parrafo{
     border-left: 3px solid;
     border-color: #094973;
@@ -126,33 +150,21 @@ body {
     font-size: 9.2px;
     font-weight: bolder;
     text-align: justify;
-    margin: 5px;
-}
-
-.shared{
-    height: 50px;
-    width: 90%;
-    margin: .3rem 0;
-}
-
-.info-institucional{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 25px 20px 10px 20px;
-    color: #094973;
-}
-
-.titulo{
-    font-size: 14px;
-    align-self: flex-start;
-    margin-left: 10px;
-    margin-bottom: 0;
-    text-transform: uppercase;
+    line-height: 1.1;
+    margin: 5px 5px 0 5px;
 }
 
 .info-alumni-back{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 5px;
+}
+
+.firma-back{
+    margin-top: .5rem;
+}
+
+.firma-back img{
+    height: 3.5rem;
 }
